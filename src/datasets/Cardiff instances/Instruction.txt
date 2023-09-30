@@ -1,0 +1,33 @@
+The following instances are originally presented in the paper An Adaptive Large Neighborhood Search heuristic for the Vehicle Routing Problem with time windows and delivery robots by Cheng Chen, Emrah Demir, and Yuan Huang in European Journal of Operational Research.
+
+The data correspond to 140 instances corresponding to different scenarios for the Vehicle Routing Problem with time windows and delivery robots. Each instance is named Cardiff_k_l, where k presents the number of customers and l represents the order of instance in each set. 
+
+Note: the vehicle payload below is an empty capacity and its usable capacity after loading delivery robots is half of that.
+
+The format of each file is as given below:
+
+(Number of Customers)
+-----------------------
+
+(Van Payload (in kg))
+--------------------------------------------
+
+(Van Speed  (in km/h))
+--------------------------------------------
+
+(Robot Speed  (in km/h))
+--------------------------------------------
+
+(Maximum Radius of robot (in metres))
+--------------------------------------------
+
+(Distance Section (in metres))
+--------------------------------
+FULL MATRIX
+
+(Node Section)
+----------------
+Node Number | Postcode |robot accessible (f_d) | Demand (in kg) | Ready Time | Due Time | Service Time of a driver|Service Time of a robot
+
+
+
